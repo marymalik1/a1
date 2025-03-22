@@ -1,0 +1,72 @@
+/* .chess {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    left: 50px;
+}
+
+.chess div {
+    width: 100px;
+    height: 100px;
+}
+
+ Apply alternating colors using nth-child 
+ .chess div:nth-child(odd) {
+    background-color: black;
+   
+}
+
+.chess div:nth-child(even) {
+    background-color: red;
+} */
+
+
+.chess div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 400px; 
+    top: 70px;
+}
+.chess div:nth-child(odd) {
+    background-color: black;  
+}
+.chess div:nth-child(even) {
+    background-color: red;
+} 
+/* Row 1 */
+#box1 { margin-top: 0px; margin-left: 0px;  }
+#box2 { margin-top: 0px; margin-left: 100px; }
+#box3 { margin-top: 0px; margin-left: 200px;  }
+#box4 { margin-top: 0px; margin-left: 300px; }
+#box5 { margin-top: 0px; margin-left: 400px;  }
+
+/* Row 2 */
+#box6 { margin-top: 100px; margin-left: 0px; }
+#box7 { margin-top: 100px; margin-left: 100px;  }
+#box8 { margin-top: 100px; margin-left: 200px; }
+#box9 { margin-top: 100px; margin-left: 300px;  }
+#box10 { margin-top: 100px; margin-left: 400px; }
+
+/* Row 3 */
+#box11 { margin-top: 200px; margin-left: 0px;  }
+#box12 { margin-top: 200px; margin-left: 100px; }
+#box13 { margin-top: 200px; margin-left: 200px;  }
+#box14 { margin-top: 200px; margin-left: 300px; }
+#box15 { margin-top: 200px; margin-left: 400px;  }
+
+/* Row 4 */
+#box16 { margin-top: 300px; margin-left: 0px; }
+#box17 { margin-top: 300px; margin-left: 100px; }
+#box18 { margin-top: 300px; margin-left: 200px; }
+#box19 { margin-top: 300px; margin-left: 300px;  }
+#box20 { margin-top: 300px; margin-left: 400px; }
+
+/* Row 5 */
+#box21 { margin-top: 400px; margin-left: 0px;  }
+#box22 { margin-top: 400px; margin-left: 100px; }
+#box23 { margin-top: 400px; margin-left: 200px;  }
+#box24 { margin-top: 400px; margin-left: 300px; }
+#box25 { margin-top: 400px; margin-left: 400px;  }
